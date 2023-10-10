@@ -1,7 +1,7 @@
 .logo {
     height: 250px;
     background-image: url(imgcss/fondo.jpg);
-    background-size: 33.3% 100%;
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,7 @@
     border: 1px solid #000000;
     max-width: 100%;
     max-height: 80%;
+    border-radius: 16px;
 }
 
 .barra {
@@ -39,12 +40,14 @@
 }
 
 .panels{
-    max-height: 150px;
+    max-height: 250px;
     padding: 10px;
+    display: flex;
 }
 
 .txt {    
-    max-width: 40%;
+    text-decoration-color: #ffffff;
+    background-color: #00000085;
     max-height: 100%;
     display: inline-block;
     text-align: left;
@@ -52,10 +55,18 @@
     align-items: right;
 }
 
-.txt img {
+.imgtxt{
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    max-height: 100%;
+    width: min-content;
+    align-items: center;
+}
+.imgtxt img{
+    background-color:rgb(0, 0, 0);
     border: 1px solid #000000;
-    max-width: 70px;
-    max-height: 70px;
+    max-width: 400px;
+    max-height: 100%;
     
 }
 
