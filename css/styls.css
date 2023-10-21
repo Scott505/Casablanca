@@ -41,13 +41,6 @@
     max-width: 23%;
 }
 
-.cuerpo {
-    max-height: 100%;
-    border: 1px solid #000000;
-    background-color: rgb(255, 255, 255);
-
-}
-
 .panels {
     overflow: auto;
     background-color: #000000;
@@ -85,5 +78,5 @@
 
 body {
     margin: 0;
-    background-color: chocolate;
+    background-color: rgb(255, 255, 255);
 }
