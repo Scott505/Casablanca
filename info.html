@@ -2,58 +2,67 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/styls.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casa Blanca: Info</title>
+  <link rel="stylesheet" href="css/styls.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Blanca: Info</title>
 </head>
 
 <body>
-    <div class="logo">
-       <img src="img/logo.jpg" alt="logo">
-    </div>
-    <nav class="barra">
-        <a class="btn" href="index.html">
-            <p>Inicio</p>
-        </a>
-        <a class="btn" href="estadia.html">
-            <p>Estadia</p>
-        </a>
-        <a class="btn" href="">
-            <p>Comidas</p>
-        </a>
+  <div class="logo">
+    <img src="img/logo.jpg" alt="logo">
+  </div>
+  <nav class="barra">
+    <a class="btn" href="index.html">
+      <p>Inicio</p>
+    </a>
+    <a class="btn" href="estadia.html">
+      <p>Estadia</p>
+    </a>
+    <a class="btn" href="">
+      <p>Comidas</p>
+    </a>
 
-        <a class="btn" href="info.html">
-            <p>Info</p>
-        </a>
-    </nav>
-    <main class="cuerpo">
+    <a class="btn" href="info.html">
+      <p>Info</p>
+    </a>
+  </nav>
+  <main class="cuerpo">
+    <div class="articulo">
+      <div class="texto">
         <p> Hace algun tiempo, tres amigos apasionados por el turismo y la hospitalidad, egresados de la Universidad de
-            la Punta (ULP), decidieron convertir su sueño en realidad. Juntos, crearon una posada que refleja su amor
-            por la naturaleza y el deseo de ofrecer a los viajeros una estancia inolvidable.<br>
-            <br>
-            Nuestra posada es mucho más que un lugar para descansar; es un refugio donde podrás alejarte de la vida
-            urbana y conectar con la tranquilidad que anhelas. En el Valle de Pancanta, la belleza natural te envuelve,
-            y nuestra posada es la puerta de entrada perfecta para explorarla. En la Casa Blanca, te sumergirás
-            en la riqueza de la región, disfrutarás de un servicio excepcional y experimentarás la comodidad en su
-            máxima expresión.<br>
-            <br>
-            Si estás buscando un escape tranquilo y pintoresco, ¡lo has encontrado!
-            Para obtener más información o reservar tu estancia, por favor completa el formulario de contacto a
-            continuación, y estaremos encantados de atenderte. Esperamos verte pronto en la Casa Blanca, donde
-            la magia de la naturaleza y la amistad te esperan </p>
-            <div>
-                <form id="myForm">
-                    <input type="text" id="nombre" required="" placeholder="Nombre">
-                    <input type="tel" id="celular" required="" placeholder="Celular">
-                    <input type="date" id="desde" required="" placeholder="Desde">
-                    <input type="date" id="hasta" required="" placeholder="Hasta">
-                    <textarea id="comentario" cols="30" rows="10" placeholder="Algún comentario..."></textarea>
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
-        
-    </main>
+          la Punta (ULP), decidieron convertir su sueño en realidad. Juntos, crearon una posada que refleja su amor
+          por la naturaleza y el deseo de ofrecer a los viajeros una estancia inolvidable.<br>
+          <br>
+          Nuestra posada es mucho más que un lugar para descansar; es un refugio donde podrás alejarte de la vida
+          urbana y conectar con la tranquilidad que anhelas. En el Valle de Pancanta, la belleza natural te envuelve,
+          y nuestra posada es la puerta de entrada perfecta para explorarla. En la Casa Blanca, te sumergirás
+          en la riqueza de la región, disfrutarás de un servicio excepcional y experimentarás la comodidad en su
+          máxima expresión.<br>
+          <br>
+          Si estás buscando un escape tranquilo y pintoresco, ¡lo has encontrado!
+          Para obtener más información o reservar tu estancia, por favor completa el formulario de contacto a
+          continuación, y estaremos encantados de atenderte. Esperamos verte pronto en la Casa Blanca, donde
+          la magia de la naturaleza y la amistad te esperan
+        </p>
+      </div>
+      <div class="formulario">
+        <form id="myForm">
+          <label for="nombre">Nombre y apellido:</label><br>
+          <input type="text" id="nombre" required="" placeholder="Nombre"><br>
+          <label for="celular">Celular:</label><br>
+          <input type="tel" id="celular" required="" placeholder="Celular"><br>
+          <label for="desde">Fecha de ingreso:</label><br>
+          <input type="date" id="desde" required="" placeholder="Desde"><br>
+          <label for="hasta">Fecha de egreso:</label><br>
+          <input type="date" id="hasta" required="" placeholder="Hasta" <br>
+          <label for="comentario">Comentarios:</label><br>
+          <textarea id="comentario" cols="30" rows="10" placeholder="Algún comentario..."></textarea><br>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>
