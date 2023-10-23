@@ -20,7 +20,6 @@
   position: sticky;
   display: flex;
   justify-content: center;
-  border: 5px solid #000000;
   background-color: rgb(0, 0, 0);
 }
 
@@ -31,14 +30,14 @@
 }
 
 .btn {
-  margin: 0.4%;
+  text-decoration: none;
   border-radius: 16px;
   text-align: center;
-  border: 1px solid hsl(0, 0%, 100%);
+  margin: 5px;
   background-color: rgb(255, 255, 255);
   display: inline-block;
-  width: 23%;
-  max-width: 23%;
+  box-sizing: border-box;
+  width: 25%;
 }
 
 .panels {
@@ -57,7 +56,6 @@
 .txt {
   margin-left: 5px;
   margin-right: 5px;
-  float: left;
   padding: 10px;
   text-align: justify;
   justify-content: center;
@@ -73,7 +71,6 @@
   top: 0;
   position: sticky;
   max-width: min-content;
-  float: right;
   display: flex;
 }
 
@@ -98,10 +95,18 @@ body {
 .texto{
   padding: 15px;
   text-align: justify;
+  font-family: cursive;
+  font-style: italic;
 }
-.formulario{                         
-  border: 1px solid rgb(0, 0, 0);
-  width: 60%;
+.formulario{    
+  display: inline-block;
+  justify-content: center;                     
+  border: 2.5px solid rgb(0, 0, 0);
+  box-sizing: border-box;
   padding: 5px;
   margin: 10px;
+}
+#comentario {
+  width: 100%;
+  box-sizing: border-box;
 }
