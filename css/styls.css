@@ -7,10 +7,6 @@
   align-items: center;
 }
 
-.error {
-  border: 1px solid red;
-} 
-
 .logo img {
   border: 1px solid #000000;
   max-width: 100%;
@@ -116,6 +112,14 @@ body {
 #comentario {
   width: 100%;
   box-sizing: border-box;
+}
+
+.error {
+  border: 1px solid red;
+} 
+
+.contForm p{
+  color: red;
 }
 
 .cuerpocarr {
