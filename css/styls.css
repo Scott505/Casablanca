@@ -118,7 +118,11 @@ body {
   border: 1px solid red;
 } 
 
-.contForm p{
+.verde{
+  color: green;
+}
+
+.rojo{
   color: red;
 }
 
