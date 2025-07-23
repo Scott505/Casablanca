@@ -9,16 +9,18 @@ const images = [
 ];
 let indexActual = 0;
 
+images.forEach((src) => {
+  const img = new Image();
+  img.src = src;
+});
+
 function mostrarImg(index) {
   const imageSrc = images[index];
   const img = document.createElement("img");
   img.src = imageSrc;
   img.alt = `Imagen ${index + 1}`;
   
-  while (carrusel.firstChild) {
-    carrusel.removeChild(carrusel.firstChild);
-  }
-  
+  carrusel.innerHTML = "";  
   carrusel.appendChild(img);
   
 }
